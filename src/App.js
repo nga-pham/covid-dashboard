@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import Pricing from './view/Pricing';
+import Main from './view/Main.jsx';
 
 function App() {
   return (
     <div className="App">
-      <Pricing />
+      <Main />
 
     </div>
   );
