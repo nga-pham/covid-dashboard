@@ -1,0 +1,15 @@
+[
+    {
+        "item": "Home",
+        "link": "#"
+    },
+    {
+        "item": "Table",
+        "link": "/table"
+    },
+    {
+        "item": "Graph",
+        "link": "/graph"
+    }
+
+]

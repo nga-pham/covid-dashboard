@@ -1,38 +1,24 @@
 import Link from "@material-ui/core/Link";
 import Toolbar from "@material-ui/core/Toolbar";
 import useStyles from "./useStyles";
+let switch_content = require("../model/switch-content.json");
 
 export default function NavBar() {
   const classes = useStyles();
 
   return (
     <Toolbar className={classes.toolbar}>
-      <nav>
+      {switch_content.map((e) => (
         <Link
           variant="button"
           color="textPrimary"
-          href="#"
+          href={e.link}
           className={classes.link}
         >
-          Home
+          {e.item}
         </Link>
-        <Link
-          variant="button"
-          color="textPrimary"
-          href="#"
-          className={classes.link}
-        >
-          Table
-        </Link>
-        <Link
-          variant="button"
-          color="textPrimary"
-          href="#"
-          className={classes.link}
-        >
-          Graph
-        </Link>
-      </nav>
+      ))}
+      
     </Toolbar>
   );
 }
