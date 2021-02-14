@@ -1,33 +1,20 @@
 [
     {
         "country": "Vietnam",
-        "total cases": 2142,
-        "active cases": 578,
-        "total recovered": 1529,
-        "total deaths": 35
+        "cases": [4242, 6364, 6469, 8585, 10593, 9252, 7736, 6429, 4109, 3490, 2629, 1253]
     },
-
     {
         "country": "USA",
-        "total cases": 28106704,
-        "active cases": 9573871,
-        "total recovered": 18040312,
-        "total deaths": 492521
+        "cases": [4242, 6364, 6469, 8585, 10593, 9252, 7736, 6429, 4109, 3490, 2629]
     },
 
     {
         "country": "Japan",
-        "total cases": 411751,
-        "active cases": 26953,
-        "total recovered": 378024,
-        "total deaths": 6774
+        "cases": [4242, 6364, 6469, 8585, 10593, 9252, 7736, 6429, 4109, 3490, 2629]
     },
 
     {
         "country": "Austria",
-        "total cases": 43870,
-        "active cases": 14274,
-        "total recovered": 408426,
-        "total deaths": 8170
+        "cases": [4242, 6364, 6469, 8585, 10593, 9252, 7736, 6429, 4109, 3490, 2629]
     }
 ]
